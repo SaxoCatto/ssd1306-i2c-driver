@@ -19,8 +19,11 @@
   int cursor_y = 0;
 */
 /* i gotta 
-- map the whole oled screen as in pixels. so something WIDTH * something HEIGHT 
+- map the whole oled screen as in pixels. so something WIDTH * something HEIGHT oh its called a buffer
+https://github.com/rickkas7/SSD1306-tutorial
+https://www.stealthylabs.com/blog/2020/03/21/oled-ssd1306-framebuffer.html
 */
+
 
 int tvccstate;
 int i2cd;
