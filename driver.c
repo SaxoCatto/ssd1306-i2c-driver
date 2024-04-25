@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <string.h>
 
@@ -14,3 +13,14 @@
 #define rotation 0
 
 #define pgm_read_byte(addr) (*(const unsigned char *)(addr))
+/*
+  for cursor, prob:
+  int cursor_x = 0;
+  int cursor_y = 0;
+*/
+/* i gotta 
+- map the whole oled screen as in pixels. so something WIDTH * something HEIGHT 
+*/
+
+int tvccstate;
+int i2cd;
